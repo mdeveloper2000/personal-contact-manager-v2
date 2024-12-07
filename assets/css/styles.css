@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #85144b;
+}
+
+.title a {
+    text-decoration: none;
+    color: #fff;
+    flex: 2;
+    margin-left: 15px;
+    font-size: 28px;
+}
+
+.title input[type="search"] {
+    flex: 1;
+    margin-right: 15px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {      
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+main div {
+    text-align: end;
+}
+
+textarea {
+    resize: none;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+form div {
+    margin: 10px 0;
+}
+
+form .label {
+    width: 100%;
+    margin-left: 0;
+}
+
+.create-message, .edit-message, .photo-message {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 4px;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    display: none;
+    text-align: start;
+}
+
+.images-cards .card {
+    width: 250px;
+}
+
+.photo-message {
+    margin-bottom: 10px;
+}
+
+.actions {
+    width: 20%;
+}
+
+.footer {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #85144b;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tabs {
+    border: none;
+    margin-right: 5px;    
+}
+
+.gallery {
+    border: none;    
+}
+
+.tabs img {
+    margin-top: 5px;
+}
+
+.left {
+    float: left;
+}
+
+.left-0 {
+    margin-left: 0;
+}
+
+#annotations {
+    text-align: start;
+    font-size: 20px;
+    padding: 25px;
+    word-break: break-all;
+}
+
+.show-information {
+    padding: 20px;
+    text-align: start;
+}
+
+.show-information .label {
+    margin-top: 20px;
+}
